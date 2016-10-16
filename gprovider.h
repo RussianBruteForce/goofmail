@@ -31,7 +31,7 @@ template <class T> class GModifierL : public GModifier<T>
 	std::function<T(T, const T &)> lambda;
 
       public:
-	GModifierL(decltype(lambda) l) : lambda{l} {}
+	explicit GModifierL(decltype(lambda) l) : lambda{l} {}
 
 	T modify(T str, const T &replacement) override
 	{
