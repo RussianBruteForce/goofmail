@@ -10,6 +10,10 @@ Create files (args in \[brackets\] may be skipped):
  * `headers` — message headers, `Sample header, hi <name>` (one on each line), `<name>` will be replaced by person's name
  * `bodies` — message bodies, separated by `#` symbol, `<name>` will be replaced by person's name
 
+then run:
+```bash
+./goofmail path/to/files
+```
 
 ## SMTP
 
