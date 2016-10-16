@@ -33,6 +33,8 @@ As for now, only SOCKS supported (you could use Tor). No auth supported.
 
 - Parallelize?
 
+- More backends?
+
 ## Build
 
 ```bash
