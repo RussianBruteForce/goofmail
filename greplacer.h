@@ -28,6 +28,7 @@ template <class P> class GReplacer : public GModifier<std::string>
 	explicit GReplacer(std::string pattern) : pattern_{std::move(pattern)}
 	{
 	}
+
 	std::string modify(std::string str,
 			   const std::string &replacement) override
 	{
