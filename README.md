@@ -31,6 +31,8 @@ As for now, only SOCKS supported (you could use Tor). No auth supported.
 
 - Proxy checker.
 
+- Parallelize?
+
 ## Build
 
 ```bash
